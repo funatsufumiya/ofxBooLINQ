@@ -25,7 +25,7 @@ void ofApp::setup(){
                     .where( [](int a) { return a > 2 && a < 12; }) // 6,10
                     .toStdVector();
 
-	ofLogNotice("ofApp") << "dst: " << ofToString(dst);
+    ofLogNotice("ofApp") << "dst: " << ofToString(dst);
     
     Man src2[] = {
         {"Kevin",14},
