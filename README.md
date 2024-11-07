@@ -42,6 +42,10 @@ void ofApp::setup(){
 
     ofLogNotice("ofApp") << "dst2: " << ofToString(dst2);
 }
+
+// Result:
+// [notice ] ofApp: dst: {6, 10}
+// [notice ] ofApp: dst2: {Kevin, Layer, Agata}
 ```
 
 ## LICENSE
